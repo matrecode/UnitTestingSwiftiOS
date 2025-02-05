@@ -4,7 +4,6 @@ import Foundation
 // struct is value types and class is reference types
 
 struct TemperatureConverter {
-    
     static func celciusToFahrenheit(_ input: Double) -> Double {
         return (input * 9/5) + 32
     }
